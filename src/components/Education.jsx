@@ -8,7 +8,7 @@ export default function Education() {
       degree: 'BSc (Hons) in Information Technology',
       faculty: 'Faculty of Information Technology',
       period: '2023 - Present',
-      location: 'Moratuwa, Sri Lankaaa',
+      location: 'Moratuwa, Sri Lanka',
       details: [
         'Specializing in Information Technology core streams including Software Engineering, Algorithms, Database Management, and Computer Networks.',
         'Actively engaged in academic collaborating development projects and hands-on system designs.',
