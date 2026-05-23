@@ -12,6 +12,7 @@ export default function Education() {
       details: [
         'Specializing in Information Technology core streams including Software Engineering, Algorithms, Database Management, and Computer Networks.',
         'Actively engaged in academic collaborating development projects and hands-on system designs.',
+        'Serving as the 2nd-year Main Batch Representative for the IT Department.',
       ],
       icon: <FiAward size={20} />,
       badge: 'Academic Undergraduate',
