@@ -4,29 +4,40 @@ import { FiGithub, FiExternalLink, FiFolder } from 'react-icons/fi';
 export default function Projects() {
   const projects = [
     {
+      title: 'Cloud Storage Management Platform',
+      description: 'An ongoing second-year group software engineering project focused on building a cost-effective cloud storage platform similar to Google Drive and iCloud. The system enables secure file storage, user authentication, real-time communication, and support management while providing an affordable alternative for users. Built with a React frontend and a Django REST Framework backend, with Dockerized deployment for scalable development workflows. Contributed to the development of the chat system and ticket submission module.',
+      tech: ['React', 'Python', 'Django REST Framework', 'Docker', 'PostgreSQL'],
+      github: 'https://github.com/chirath1231/Software-Project-Storage-Solution.git',
+      featured: true,
+      category: 'Cloud Systems / Full Stack'
+    },
+
+    {
+      title: 'Sweet Surrender',
+      description: 'A modern full-stack bakery e-commerce platform developed as an academic group project for learning enterprise-level web application development. The system provides an online marketplace for bakeries to manage and sell products efficiently through features such as order management, invoice generation, secure authentication, and online payment integration using PayHere. Built with a responsive React frontend and a Laravel backend, the platform was designed to simulate real-world business workflows and modern SaaS-style application architecture.',
+      tech: ['React.js', 'Laravel', 'MySQL', 'Tailwind CSS', 'PayHere'],
+      github: 'https://github.com/chirath1231/sweet-surrender.git',
+      featured: true,
+      category: 'E-Commerce / Full Stack Web Application',
+    },
+
+    {
       title: 'EyeVMouse',
       description: 'An innovative virtual mouse interface leveraging computer vision. Designed to control mouse pointers through eye tracking and hand gestures, enabling an assistive hands-free device management framework.',
-      tech: ['Python', 'OpenCV', 'MediaPipe', 'PyAutoGUI'],
+      tech: ['Python', 'OpenCV'],
       github: 'https://github.com/osalhk/EyeVMouse.git',
       featured: true,
       category: 'Computer Vision',
     },
+
     {
-      title: 'Sweet Surrender',
-      description: 'A custom software solution built collaboratively to streamline order management, ingredient supply inventories, and invoice processing for bakeries and confectionery shops.',
-      tech: ['React.js', 'Node.js', 'Express', 'MySQL', 'Tailwind CSS'],
-      github: 'https://github.com/chirath1231/sweet-surrender.git',
+      title: 'Smart Railway Trolley System',
+      description: 'A first-year group hardware project focused on designing and developing a smart railway trolley system capable of transporting items between locations through an electrically powered rail track. The trolley was controlled through a custom web-based interface, enabling remote operation and movement control. Built using Arduino and C++, the system utilized electrical current supplied directly through the railway track as the primary power and movement mechanism, demonstrating embedded systems integration, hardware-software communication, and real-time control concepts.',
+      tech: ['Arduino', 'C++', 'Embedded Systems', 'Web Control Interface'],
+      github: '',
       featured: true,
-      category: 'Web Application',
-    },
-    {
-      title: 'Software Project Storage Solution',
-      description: 'A repository and asset indexing application designed to manage code, documents, and assets for engineering projects. Focuses on organization, metadata tagging, and fast retrieval.',
-      tech: ['Java', 'Spring Boot', 'PostgreSQL', 'Docker'],
-      github: 'https://github.com/chirath1231/Software-Project-Storage-Solution.git',
-      featured: false,
-      category: 'Systems/Backend',
-    },
+      category: 'Hardware / IoT Systems',
+    }
   ];
 
   return (
@@ -76,7 +87,7 @@ export default function Projects() {
                   <div className="w-10 h-10 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-500">
                     <FiFolder size={22} />
                   </div>
-                  
+
                   {/* Action link */}
                   <a
                     href={project.github}
@@ -125,7 +136,7 @@ export default function Projects() {
                   <span className="text-xs font-mono text-[var(--color-muted)] opacity-60">
                     [Future Image/Demo Placeholder]
                   </span>
-                  
+
                   {/* Subtle hover effect line overlay */}
                   <div className="absolute bottom-0 left-0 w-full h-[3px] bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
                 </div>
