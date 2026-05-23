@@ -38,6 +38,7 @@ export default function Projects() {
       featured: true,
       category: 'Hardware / IoT Systems',
     }
+
   ];
 
   return (
@@ -130,16 +131,16 @@ export default function Projects() {
                   ))}
                 </div>
 
-                {/* Visual mock image/demo area */}
+                {/* Visual mock image/demo area 
                 <div className="w-full h-32 rounded-xl bg-gradient-to-br from-indigo-500/5 to-purple-500/5 dark:from-indigo-900/20 dark:to-purple-900/20 border border-[var(--color-border)] flex items-center justify-center relative overflow-hidden group-hover:border-indigo-500/30 transition-all duration-300">
                   <div className="absolute inset-0 bg-dots opacity-[0.2]" />
                   <span className="text-xs font-mono text-[var(--color-muted)] opacity-60">
                     [Future Image/Demo Placeholder]
                   </span>
 
-                  {/* Subtle hover effect line overlay */}
+                
                   <div className="absolute bottom-0 left-0 w-full h-[3px] bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-                </div>
+                </div>*/}
               </div>
             </motion.div>
           ))}
