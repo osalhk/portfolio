@@ -41,8 +41,8 @@ export default function Projects() {
 
     {
       title: 'DengueShield',
-      description: 'An end-to-end disease surveillance and community alert platform. Includes a mobile frontend application for geolocation-based dengue case reporting and dynamic outbreak hazard heatmaps, supported by a secure Node.js/Express.js backend utilizing Firebase Authentication, Cloud Firestore for real-time database management, and Firebase Cloud Messaging for instant community safety alerts.',
-      tech: ['React Native', 'Node.js', 'Express.js', 'Firebase', 'Firestore', 'Firebase Auth'],
+      description: 'An end-to-end disease surveillance and community alert platform. Features a mobile frontend application for geolocation-based dengue case reporting and dynamic outbreak hazard heatmaps, supported by a Node.js/Express.js backend utilizing the Firebase Admin SDK, Cloud Firestore for real-time data storage, Firebase Auth ID token verification, and Firebase Cloud Messaging (FCM) for instant community safety alerts.',
+      tech: ['React Native', 'Node.js', 'Express.js', 'Firebase Admin SDK', 'Cloud Firestore', 'Firebase Auth', 'FCM'],
       github: 'https://github.com/osalhk/dengueshield-backend',
       featured: true,
       category: 'Mobile App / Backend API',
